@@ -24,7 +24,7 @@ import org.testng.annotations.DataProvider;
 @CucumberOptions(
         features = "src/test/java/features",
         glue = {"src/test/java/stepdefs"},
-        //tags = {"~@Ignore"},
+
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports/cucumber-pretty",
@@ -33,37 +33,5 @@ import org.testng.annotations.DataProvider;
         })
 
 public class NEdbankShortDemo {
-
-        /*private TestNGCucumberRunner testNGCucumberRunner;
-
-        @BeforeClass(alwaysRun = true)
-        public void setUpClass() throws Exception {
-                testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
-        }
-
-        @Test(groups = "cucumber", description = "Runs Cucumber Feature")
-        public void feature(CucumberFeatureWrapper cucumberFeature) {
-                testNGCucumberRunner.runCucumber(cucumberFeature.getCucumberFeature());
-        }
-
-      *//*  @DataProvider
-        public Object[][] features() {
-                return testNGCucumberRunner.provideFeatures();
-        }*//*
-
-        @AfterClass(alwaysRun = true)
-        public void tearDownClass() throws Exception {
-                testNGCucumberRunner.finish();
-        }
-*/
-
-   /* @Test
-    public void loginTest() throws IOException {
-        Properties prop = new Properties();
-        FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\object");
-        prop.load(fis);
-        System.out.println(prop.getProperty("url"));
-    }*/
-
 
 }
