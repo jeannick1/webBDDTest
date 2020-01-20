@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65db878e-78bd-46e8-93d1-e997f4c886da" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="Jenkins.Settings">
+    <option name="lastSelectedView" value="all" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W9c9PbIm9TadT0y9YKNcjQv9Gv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\automationPC\IdeaProjects\web" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Feature: LoginProfile">
+    <configuration name="Feature: LoginProfile" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/LoginProfile.feature" />
+      <option name="GLUE" value="Stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="web" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: LoginProfile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Personal" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Personal.feature" />
+      <option name="GLUE" value="Stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="web" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Personal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify if place is being Successfully added" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Personal.feature" />
+      <option name="GLUE" value="Stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="web" />
+      <option name="NAME_FILTER" value="^Verify if place is being Successfully added$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verify if place is being Successfully added$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify if place is being Successfully added" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NEdbankShortDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NEdbankShortDemo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NEdbankShortDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NEdbankShortDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: LoginProfile" />
+        <item itemvalue="JUnit.NEdbankShortDemo" />
+        <item itemvalue="TestNG.NEdbankShortDemo" />
+        <item itemvalue="Cucumber java.Feature: Personal" />
+        <item itemvalue="Cucumber java.Scenario: Verify if place is being Successfully added" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65db878e-78bd-46e8-93d1-e997f4c886da" name="Default Changelist" comment="" />
+      <created>1578565099053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578565099053</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1555" y="0" key="#Inspections" timestamp="1579185349571">
+      <screen x="1280" y="0" width="1366" height="623" />
+    </state>
+    <state x="1555" y="0" key="#Inspections/0.0.1280.879/1280.0.1366.623@1280.0.1366.623" timestamp="1579185349571" />
+    <state x="1555" y="0" key="#Notifications" timestamp="1579271645945">
+      <screen x="1280" y="0" width="1366" height="623" />
+    </state>
+    <state x="1555" y="0" key="#Notifications/0.0.1280.879/1280.0.1366.623@1280.0.1366.623" timestamp="1579271645945" />
+    <state x="1555" y="0" key="#Project_Structure" timestamp="1579186369506">
+      <screen x="1280" y="0" width="1366" height="623" />
+    </state>
+    <state x="1555" y="0" key="#Project_Structure/0.0.1280.879/1280.0.1366.623@1280.0.1366.623" timestamp="1579186369506" />
+    <state x="408" y="249" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578575859778">
+      <screen x="0" y="0" width="1280" height="879" />
+    </state>
+    <state x="408" y="249" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.879@0.0.1280.879" timestamp="1578575859778" />
+    <state x="320" y="175" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578904215073">
+      <screen x="0" y="0" width="1280" height="879" />
+    </state>
+    <state x="320" y="175" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.879@0.0.1280.879" timestamp="1578904215073" />
+    <state x="1728" y="108" key="FileChooserDialogImpl" timestamp="1579271170640">
+      <screen x="1280" y="0" width="1366" height="623" />
+    </state>
+    <state x="420" y="194" key="FileChooserDialogImpl/0.0.1280.879/1280.0.1366.623@0.0.1280.879" timestamp="1579090317358" />
+    <state x="1728" y="108" key="FileChooserDialogImpl/0.0.1280.879/1280.0.1366.623@1280.0.1366.623" timestamp="1579271170640" />
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1579264483876">
+      <screen x="1280" y="0" width="1366" height="623" />
+    </state>
+    <state width="1200" height="207" key="GridCell.Tab.0.bottom/0.0.1280.879/1280.0.1366.623@0.0.1280.879" timestamp="1579177396092" />
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1280.879/1280.0.1366.623@1280.0.1366.623" timestamp="1579264483876" />
+    <state width="1237" height="229" key="GridCell.Tab.0.bottom/0.0.1280.879@0.0.1280.879" timestamp="1578637251249" />
+    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1579264483876">
+      <screen x="1280" y="0" width="1366" height="623" />
+    </state>
+    <state width="1200" height="207" key="GridCell.Tab.0.center/0.0.1280.879/1280.0.1366.623@0.0.1280.879" timestamp="1579177396092" />
+    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1280.879/1280.0.1366.623@1280.0.1366.623" timestamp="1579264483876" />
+    <state width="1237" height="229" key="GridCell.Tab.0.center/0.0.1280.879@0.0.1280.879" timestamp="1578637251249" />
+    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1579264483876">
+      <screen x="1280" y="0" width="1366" height="623" />
+    </state>
+    <state width="1200" height="207" key="GridCell.Tab.0.left/0.0.1280.879/1280.0.1366.623@0.0.1280.879" timestamp="1579177396092" />
+    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1280.879/1280.0.1366.623@1280.0.1366.623" timestamp="1579264483876" />
+    <state width="1237" height="229" key="GridCell.Tab.0.left/0.0.1280.879@0.0.1280.879" timestamp="1578637251238" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1579264483876">
+      <screen x="1280" y="0" width="1366" height="623" />
+    </state>
+    <state width="1200" height="207" key="GridCell.Tab.0.right/0.0.1280.879/1280.0.1366.623@0.0.1280.879" timestamp="1579177396092" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1280.879/1280.0.1366.623@1280.0.1366.623" timestamp="1579264483876" />
+    <state width="1237" height="229" key="GridCell.Tab.0.right/0.0.1280.879@0.0.1280.879" timestamp="1578637251249" />
+    <state x="170" y="94" key="Maven.ArtifactSearchDialog" timestamp="1579097351955">
+      <screen x="0" y="0" width="1280" height="879" />
+    </state>
+    <state x="170" y="94" key="Maven.ArtifactSearchDialog/0.0.1280.879/1280.0.1366.623@0.0.1280.879" timestamp="1579097351955" />
+    <state x="1430" y="0" key="SettingsEditor" timestamp="1579271524681">
+      <screen x="1280" y="0" width="1366" height="623" />
+    </state>
+    <state x="141" y="83" key="SettingsEditor/0.0.1280.879/1280.0.1366.623@0.0.1280.879" timestamp="1579169391340" />
+    <state x="1430" y="0" key="SettingsEditor/0.0.1280.879/1280.0.1366.623@1280.0.1366.623" timestamp="1579271524681" />
+    <state x="336" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1578925839320">
+      <screen x="0" y="0" width="1280" height="879" />
+    </state>
+    <state x="336" y="263" key="com.intellij.ide.util.TipDialog/0.0.1280.879@0.0.1280.879" timestamp="1578925839320" />
+    <state x="0" y="143" width="1040" height="373" key="dock-window-1" timestamp="1579270812076">
+      <screen x="0" y="0" width="1280" height="879" />
+    </state>
+    <state x="0" y="143" width="1040" height="373" key="dock-window-1/0.0.1280.879/1280.0.1366.623@1280.0.1366.623" timestamp="1579270812076" />
+    <state x="1715" y="234" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1579186358665">
+      <screen x="1280" y="0" width="1366" height="623" />
+    </state>
+    <state x="1715" y="234" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1280.879/1280.0.1366.623@1280.0.1366.623" timestamp="1579186358665" />
+    <state x="1619" y="136" key="run.anything.popup" timestamp="1579177744490">
+      <screen x="1280" y="0" width="1366" height="623" />
+    </state>
+    <state x="1619" y="136" key="run.anything.popup/0.0.1280.879/1280.0.1366.623@1280.0.1366.623" timestamp="1579177744490" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/web$NEdbankShortDemo.ic" NAME="NEdbankShortDemo Coverage Results" MODIFIED="1579170177592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
