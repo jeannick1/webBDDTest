@@ -5,20 +5,33 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+
+import java.sql.Driver;
+import java.util.NoSuchElementException;
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import static java.util.concurrent.TimeUnit.SECONDS;
+
 public class StepDefinitions {
-        private WebDriver driver,wait ;
+        private WebDriver driver ;
         private String baseUrl;
         private boolean acceptNextAlert = true;
         private StringBuffer verificationErrors = new StringBuffer();
-     //   WebDriverWait wait = new WebDriverWait(driver, 15);
+
+        Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
+                .withTimeout(20, TimeUnit.SECONDS)
+                .pollingEvery(1, TimeUnit.SECONDS)
+                .ignoring(NoSuchElementException.class)
+                .withMessage("user defined wait timed out after 20 seconds");
 
         @Given("login to nedbank")
         public void login_to() {
@@ -26,7 +39,7 @@ public class StepDefinitions {
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
                 driver.get("https://nedbank.co.za/content/nedbank/desktop/gt/en/personal.html");
-                driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+                driver.manage().timeouts().implicitlyWait(30, SECONDS);
                 System.out.println("logged in successfully");
                /// throw new cucumber.api.PendingException();
         }
@@ -35,7 +48,7 @@ public class StepDefinitions {
         public void clickingOnPersonal() {
 
             //  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a/div")));
-                driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+                driver.manage().timeouts().implicitlyWait(30, SECONDS);
                 driver.findElement(By.xpath("//a/div")).click();
                 System.out.println("successfully clicked on personal");
                // throw new cucumber.api.PendingException();
@@ -67,6 +80,9 @@ public class StepDefinitions {
         @Then("enter pretoria in the  search bar")
         public void enter_pretoria_in_the_search_bar() {
                 driver.findElement(By.id("search_places")).sendKeys("pretoria");
+              //  wait.until(ExpectedConditions.presenceOfElementLocated((By.xpath("//div[@id='searchPanelContainer']/div/div/div/div/div/ng4geo-autocomplete/div/div/div/button/i"))));
+                driver.findElement(By.xpath("//div[@id='searchPanelContainer']/div/div/div/div/div/ng4geo-autocomplete/div/div/div/button/i")).click();
+
                 System.out.println("successfully entered string in the search bar");
 
         }
